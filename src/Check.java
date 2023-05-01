@@ -9,6 +9,7 @@ public class Check {
             input+=b[i];
         }
 
+        
         int countBulls=0, countCows=0; //Bulls가 strike, Cows가 ball
         for(int i=0;i<4;i++) {
             if (origin.contains(String.valueOf(input.charAt(i)))) {
